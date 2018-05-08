@@ -2,6 +2,10 @@ package com.antoniosj.challanges;
 
 import java.util.Stack;
 
+/*
+* Check if all the brackets is closing. Ex: {[(())]} - true. {[)} - false
+*/
+
 public class BracketsChecker {
 
     public static boolean checkBrackets(String str)

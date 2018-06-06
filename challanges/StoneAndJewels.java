@@ -1,6 +1,7 @@
 package com.company;
 
 //Leetcode 771. Jewels and Stones
+//link: https://leetcode.com/problems/jewels-and-stones/description/
 public class StoneAndJewels {
 
     public static void main(String[] args) {

@@ -2,7 +2,7 @@ package io.github.antoniosj.chapter1;
 
 import edu.princeton.cs.algs4.StaticSETofInts;
 
-public class StackImpl {
+public class StackAlgs {
 
 	public int[] list = new int[5];
 	public int N = 0;
@@ -37,7 +37,7 @@ public class StackImpl {
 	}
 
 	public static void main(String[] args) {
-		StackImpl i = new StackImpl();
+		StackAlgs i = new StackAlgs();
 		i.push(1);
 		i.push(3);
 		i.push(4);

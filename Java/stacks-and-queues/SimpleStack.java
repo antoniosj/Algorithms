@@ -1,12 +1,12 @@
 package com.antoniosj;
 
-public class StackX {
+public class SimpleStack {
 
     private int maxSize;
     private char[] stackArray;
     private int top;
 
-    public StackX(int s) {
+    public SimpleStack(int s) {
         maxSize = s;
         stackArray = new char[maxSize];
         top = -1;

@@ -1,6 +1,6 @@
 package io.github.antoniosj.chapter1;
 
-public class MergeSortII {
+public class MergeSort {
 	private int[] numbers;
 	private int[] helper;
 

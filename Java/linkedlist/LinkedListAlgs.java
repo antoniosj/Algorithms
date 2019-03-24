@@ -1,6 +1,6 @@
 package com.antoniosj;
 
-public class MyLinkedList {
+public class LinkedListAlgs {
 
     Node head = null;
 

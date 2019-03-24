@@ -1,13 +1,13 @@
 package com.antoniosj;
 
-public class QueueX {
+public class SimpleQueue {
     private int maxSize;
     private long[] queArray;
     private int head;
     private int tail;
     private int nItems;
 
-    public QueueX(int s) {
+    public SimpleQueue(int s) {
         maxSize = s;
         queArray = new long[maxSize];
         head = 0;

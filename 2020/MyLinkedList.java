@@ -46,4 +46,39 @@ public class MyLinkedList {
         }
         size++;
     }
+
+
+    public Node remove(int data) {
+
+        Node n = head;
+
+        //edge cases
+        if (n == null) return n;
+
+        if (n.data == data) {
+            --size;
+            return n.next;
+        }
+
+        //if I find the value I skip this value and this will modify the head
+        while (n.next != null) {
+            // 1 -> [2 ->] -> 3 to 1 -> 3 ->
+            if (n.next.data == data) {
+                n.next = n.next.next;
+                --size;
+                return head;
+            }
+            n = n.next;
+        }
+
+        return null;
+    }
+
+    public void printList() {
+        Node n = head;
+        while (n != null) {
+            System.out.print(n.data + " ");
+            n = n.next;
+        }
+    }
 }

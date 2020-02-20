@@ -42,7 +42,7 @@ public class MyArrayStack {
     }
 
     public int peek() {
-        return stack[numOfItems];
+        return stack[numOfItems-1];
     }
 
     public boolean isEmpty() {
